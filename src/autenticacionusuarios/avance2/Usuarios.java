@@ -1,43 +1,37 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package autenticacionusuarios.avance2;
+
 public class Usuarios {
-    public int ID;
-    public String NombreUsuario;
-    public String Contrasena;
+    private int id;
+    private String nombreUsuario;
+    private String contrasena;
 
-    public Usuarios(int ID, String NombreUsuario, String Contrasena) {
-        this.ID = ID;
-        this.NombreUsuario = NombreUsuario;
-        this.Contrasena = Contrasena;
+    public Usuarios(int id, String nombreUsuario, String contrasena) {
+        this.id = id;
+        this.nombreUsuario = nombreUsuario;
+        this.contrasena = contrasena;
     }
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombreUsuario() {
-        return NombreUsuario;
+        return nombreUsuario;
     }
 
-    public void setNombreUsuario(String NombreUsuario) {
-        this.NombreUsuario = NombreUsuario;
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
     }
 
     public String getContrasena() {
-        return Contrasena;
+        return contrasena;
     }
 
-    public void setContrasena(String Contrasena) {
-        this.Contrasena = Contrasena;
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
     }
-    
-    
-    
 }
